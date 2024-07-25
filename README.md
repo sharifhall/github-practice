@@ -9,13 +9,19 @@ This repository contains a guide on implementing data privacy standards within s
 
 At the top of this page, click the "Fork" button to start creating a fork of the repo.
 
+![](imgs/click-fork.png)
+
 On the "Create a new fork" page, take note of the following settings:
+
+![](imgs/create-fork-page.png)
 
 Click the "Create fork" button.
 
 #### Examining Our New Fork
 
 Take a look at the fork you just created. Notice that the repository is now `[your-github-id]/github-practice` instead of `Generation-Data/github-practice`.
+
+![](imgs/fork-overview)
 
 **Step 2: Start a new codespace on the main branch of your forked repo.**
 
@@ -60,13 +66,34 @@ git checkout -b feature-update-guide
 
 Run `git branch` to ensure that you've switched to your newly created branch:
 
--
+![](imgs/git-branch.png)
 
 **Step 3. In the `data-privacy.md` file, change the data privacy policy snippet to a block quote.**
 
 Remove the markdown-formatted block and add a `>` symbol next to each line in the section. Your markdown file should look like this:
 
--
+```markdown
+### Example Data Privacy Policy (Snippet)
+
+
+> ### Data Privacy Policy
+> 
+> #### Data Collection and Usage
+>
+> We collect personal data (e.g., names, email addresses) only with explicit consent and for specified purposes. Data is used solely for internal communication and organizing purposes.
+>
+> #### Data Security
+> 
+> All personal data is stored securely using industry-standard encryption methods. Access is restricted to authorized > personnel only.
+> 
+> #### Data Retention
+> 
+> We retain personal data only as long as necessary for organizational purposes or as required by law. Data will be securely deleted when no longer needed.
+> 
+> #### Consent and Rights
+> 
+> Individuals have the right to access, correct, or delete their personal data upon request. Consent can be withdrawn at any time.
+```
 
 Verify your changes in the preview window.
 
@@ -127,3 +154,18 @@ Verify your new branch in Github.
 ## Merge Activity
 
 **Step 1. Merge your changes on your feature branch into your main branch.**
+
+Switch back to your main branch:
+```
+git checkout main
+```
+
+Merge the feature branch into the main branch:
+```
+git merge feature-update-guide
+```
+
+Push your changes to the mian branch on `origin`:
+```
+git push
+```
