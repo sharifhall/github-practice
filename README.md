@@ -18,3 +18,16 @@ Click the "Create fork" button.
 Take a look at the fork you just created. Notice that the repository is now `[your-github-id]/github-practice` instead of `Generation-Data/github-practice`.
 
 **Step 2: Start a new codespace on the main branch of your forked repo.**
+
+git branch
+
+git remote
+
+git remote -v
+
+## Branch Activity
+
+
+## Merge Activity
+
+## Creating a Pull Request
