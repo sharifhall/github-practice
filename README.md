@@ -9,11 +9,11 @@ This repository contains a guide on implementing data privacy standards within s
 
 At the top of this page, click the "Fork" button to start creating a fork of the repo.
 
-![](imgs/click-fork.png)
+![](guide/imgs/click-fork.png)
 
 On the "Create a new fork" page, take note of the following settings:
 
-![](imgs/create-fork-page.png)
+![](guide/imgs/create-fork-page.png)
 
 Click the "Create fork" button.
 
@@ -21,7 +21,7 @@ Click the "Create fork" button.
 
 Take a look at the fork you just created. Notice that the repository is now `[your-github-id]/github-practice` instead of `Generation-Data/github-practice`.
 
-![](imgs/fork-overview)
+![](guide/imgs/fork-overview)
 
 **Step 2: Start a new codespace on the main branch of your forked repo.**
 
@@ -66,7 +66,7 @@ git checkout -b feature-update-guide
 
 Run `git branch` to ensure that you've switched to your newly created branch:
 
-![](imgs/git-branch.png)
+![](guide/imgs/git-branch.png)
 
 **Step 3. In the `data-privacy.md` file, change the data privacy policy snippet to a block quote.**
 
