@@ -111,3 +111,16 @@ For further reading and resources on data privacy, consider exploring guidelines
 ---
 
 This guide provides a comprehensive overview of data privacy considerations tailored to social movement organizations. Implementing these practices will not only help your organization comply with legal requirements but also demonstrate your commitment to protecting the privacy of your supporters and members.
+
+---
+# Discussion Question:
+
+What is a potential consequence of not having strong data privacy protections in a social movement organization?
+
+**Top Answer:**
+```
+Author: [your name here]
+
+[your answer here]
+
+```
